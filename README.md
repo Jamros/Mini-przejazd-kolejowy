@@ -1,10 +1,32 @@
-# Mini-przejazd-kolejowy
-Used DIY a motion sensor based on capacity with Arduino
+# Mini-level crossing
 
 
-<br> Project name: Mini przejazd kolejowy</br>
-<br>Functions: Podnoszenie/opuszczanie szlabanu,miganie 2 diodami,buczenie buzzerem gdy podjezdza pociag aż do jego odjazdu</br>
-<br>Features: Sterowanie janością diód, określenie długości czasu przejazdu pociągu</br>
-<br>Upgrades: Zamiana na program obiektowy, zastosowanie buzzera bez generatora [użycie funkcji tune()] </br>
-<br>Warnings: Maksymalny czas ciągłej pracy to 50dni (zmienna unsigned int przechowuje czas)</br>
-<br>Author: Kamil Jamros</br>
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Functions](#functions)
+* [Features](#features)
+* [Upgrades](#upgrades)
+* [Warnings](#warnings)
+
+## General info
+Used DIY a motion sensor based on capacity with Arduino.
+	
+## Technologies
+Project is created with:
+* Arduino
+* Library Servo
+
+## Functions
+* Raising and lowering the barrier
+* Blikig two Leds
+* Buzzer
+
+## Features
+Controlling the brightness of the diodes, determining the length of the train journey time
+
+## Upgrades
+Convert to object program, use buzzer without generator [use tune ()]
+
+## Warnings
+The maximum time of continuous operation is 50 days (an unsigned int variable stores the time)
